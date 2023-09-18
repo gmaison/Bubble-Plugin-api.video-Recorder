@@ -1,0 +1,14 @@
+{
+    "caption": "Set Audio Device",
+    "doc": "Select the audio device to be used",
+    "fields": {
+        "AAN": {
+            "caption": "Set Audio Device",
+            "doc": "Set the Audio Device of the Media Stream",
+            "editor": "DynamicValue",
+            "name": "audio_device_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

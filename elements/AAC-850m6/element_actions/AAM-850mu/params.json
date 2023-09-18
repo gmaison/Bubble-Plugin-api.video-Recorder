@@ -1,0 +1,14 @@
+{
+    "caption": "Set Video Device",
+    "doc": "Select the Video Device to be used",
+    "fields": {
+        "AAO": {
+            "caption": "Video Device Name",
+            "doc": "Video Device name",
+            "editor": "DynamicValue",
+            "name": "video_device_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

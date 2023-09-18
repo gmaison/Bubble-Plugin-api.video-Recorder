@@ -1,0 +1,182 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "api.video MediaRecorder",
+    "events": {
+        "AAJ": {
+            "caption": "Media Devices Changed",
+            "doc": "At plugin intialization and whenever a device is added, updated or removed from the computer",
+            "name": "media_devices_changed"
+        },
+        "AAS": {
+            "caption": "Error",
+            "doc": "Whenever an error occurs. See Error Message state for more details",
+            "name": "error"
+        },
+        "AAU": {
+            "caption": "New selected audio device",
+            "doc": "triggered when the selected audio device has changed",
+            "name": "new_selected_audio_device"
+        },
+        "AAV": {
+            "caption": "New selected video device",
+            "doc": "triggered when the selected video device has changed",
+            "name": "new_selected_video_device"
+        },
+        "AAY": {
+            "caption": "Recording Started",
+            "doc": "When a recording is started",
+            "name": "recording_started"
+        },
+        "AAZ": {
+            "caption": "Recording Ended",
+            "doc": "When a recording is ended",
+            "name": "recording_ended"
+        },
+        "AAa": {
+            "caption": "Data available",
+            "doc": "When recording data chunk is available",
+            "name": "data_available"
+        },
+        "AAc": {
+            "caption": "State changed",
+            "doc": "Whenever the recording state changes",
+            "name": "state_changed"
+        },
+        "AAd": {
+            "caption": "Paused",
+            "doc": "When the recording is paused",
+            "name": "paused"
+        },
+        "AAe": {
+            "caption": "Resumed",
+            "doc": "When the recording is resumed",
+            "name": "resumed"
+        },
+        "AAl": {
+            "caption": "Replay ready",
+            "doc": "When the replay is ready ",
+            "name": "replay_ready"
+        },
+        "AAp": {
+            "caption": "Recording Uploaded",
+            "doc": "When the recording has been uploaded to Bubble",
+            "name": "recording_uploaded"
+        },
+        "AAv": {
+            "caption": "MimeType checked",
+            "doc": "Whenever a MimeType has been checked",
+            "name": "mimetype_checked"
+        }
+    },
+    "icon": "ion-ios-videocam",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAH": {
+            "caption": "Video Devices",
+            "doc": "List of the Video Devices",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "video_devices",
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Audio Devices",
+            "doc": "List of the Audio Devices",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "audio_devices",
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Selected Video Device",
+            "doc": "Selected Video Device",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "selected_video_device",
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Selected Audio Device",
+            "doc": "Selected Audio Device",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "selected_audio_device",
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Error Message",
+            "doc": "Last error message",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error_message",
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "State",
+            "doc": "Recording status : \"inactive\", \"recording\", \"paused'",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "state",
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Uploaded File",
+            "doc": "Link of the uploaded recording file",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "uploaded_file",
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "is MimeType Supported",
+            "doc": "is the MimeType supported ?",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_mimetype_supported",
+            "value": "boolean"
+        },
+        "AAw": {
+            "caption": "Video Mime Type",
+            "doc": "What is the video recording MimeType ?",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "video_mime_type",
+            "value": "text"
+        },
+        "AAx": {
+            "caption": "api.video videoId",
+            "doc": "videoId from api.video after recording ended",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "video_id",
+            "value": "text"
+        }
+    }
+}

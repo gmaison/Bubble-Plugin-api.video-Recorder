@@ -1,0 +1,15 @@
+{
+    "caption": "Upload to Bubble",
+    "doc": "Send the recording to Bubble storage",
+    "fields": {
+        "AAn": {
+            "caption": "Filename",
+            "doc": "Specify a filename ",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

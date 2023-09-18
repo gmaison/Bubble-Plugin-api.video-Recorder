@@ -1,0 +1,14 @@
+{
+    "caption": "isMimeTypeSupported",
+    "doc": "Checks if a mimeType is supported or not",
+    "fields": {
+        "AAt": {
+            "caption": "MimeType",
+            "doc": "The Mime Type to check. video/webm, video/mp4, ...",
+            "editor": "DynamicValue",
+            "name": "mimetype",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

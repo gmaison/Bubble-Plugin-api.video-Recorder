@@ -1,0 +1,15 @@
+{
+    "caption": "Download recording",
+    "doc": "Download the recording locally",
+    "fields": {
+        "AAm": {
+            "caption": "Filename",
+            "doc": "Specify a filename ",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "ABE": {
+            "caption": "api.video API Key",
+            "type": "secure"
+        },
+        "ABF": {
+            "caption": "api.video API Key",
+            "type": "client_safe"
+        }
+    }
+}
